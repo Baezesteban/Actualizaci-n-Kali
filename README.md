@@ -20,7 +20,7 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://imgur.com/a/szyZ3UP](https://i.imgur.com/aw4t8ms.png"/>
+<img src="https://i.imgur.com/aw4t8ms.png"/>
 <img src=""/>
 <br />
 <br />
