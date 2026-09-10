@@ -1,28 +1,89 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Actualización Kali Linux</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<p>
+  <a href="https://youtu.be/7eJexJVCqJo">YouTube Demonstration</a>
+</p>
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<section>
+  <h2>Bienvenido a este proyecto</h2>
+
+  <p>
+    Este proyecto está pensado para <strong>DUMMIES o personas que están comenzando desde cero</strong>,
+    por lo que inicialmente las explicaciones serán detalladas y paso a paso.|
+  </p>
+
+  <p>
+    A medida que avances de proyecto en proyecto,
+    <strong>el nivel de dificultad irá aumentando progresivamente</strong>.
+    La idea es que cada ejercicio te prepare para el siguiente.
+  </p>
+
+  <p>
+    No te preocupes si al principio todo parece muy explicado;
+    <strong>poco a poco iremos subiendo el nivel</strong>.
+  </p>
+
+  <p><strong>Inicialmente, comenzaremos con lo más básico. ¡Vamos a ello!</strong></p>
+</section>
+
+<section>
+  <h2>Requisitos</h2>
+
+  <ul>
+    <li><strong>Kali Linux </strong></li>
+    <li><strong>Terminal de Kali Linux</strong></li>
+  </ul>
+</section>
+
+<section>
+  <p>
+    Antes de comenzar con los siguientes proyectos, prepararemos nuestro entorno
+    actualizando Kali Linux y sus paquetes.
+  </p>
+
+  <h3>1. Actualizar los repositorios</h3>
+
+  <p>
+    Este comando consulta los repositorios configurados y actualiza la información
+    disponible sobre los paquetes.
+  </p>
+
+  <pre><code>sudo apt update</code></pre>
+
+  <h3>2. Actualizar los paquetes</h3>
+
+  <p>
+    Una vez actualizada la información de los repositorios, instalamos las
+    actualizaciones disponibles.
+  </p>
+
+  <pre><code>sudo apt upgrade</code></pre>
+
+  <h3>3. Configurar paquetes pendientes</h3>
+
+  <p>
+    Si existen paquetes que quedaron pendientes de configuración, podemos ejecutar:
+  </p>
+
+  <pre><code>sudo dpkg --configure -a</code></pre>
+
+  <p>
+    Con esto tendremos nuestro entorno preparado para continuar con los siguientes
+    proyectos.
+  </p>
+
+  <p align="center">
+Imagende referencia: <br/>
+<img src="https://i.imgur.com/sbhgpBk.png"/>
+<img src=""/>
 <br />
+</section>
 
 
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/aw4t8ms.png"/>
-<img src=""/>
-<br />
+
 <br />
 Select the disk:  <br/>
 <img src="https://imgur.com/a/szyZ3UP" height="80%" width="80%" alt="Disk Sanitization Steps"/>
