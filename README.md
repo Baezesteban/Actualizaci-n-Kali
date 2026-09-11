@@ -3,7 +3,7 @@
 <p>
   <strong>
     <a href="https://youtu.be/3u8BqLct_ak">
-      Curso de Hacking Ético #01 - Actualización de Kali Linux
+      Hacking Ético #02 | Actualizar Kali Linux desde Cero
     </a>
   </strong>
 </p>
